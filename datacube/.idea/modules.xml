@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/datacube.iml" filepath="$PROJECT_DIR$/datacube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datacube-back/datacube-back.iml" filepath="$PROJECT_DIR$/../datacube-back/datacube-back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datacube-front/datacube-front.iml" filepath="$PROJECT_DIR$/../datacube-front/datacube-front.iml" />
+    </modules>
+  </component>
+</project>

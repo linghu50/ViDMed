@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="Microsoft YaHei"] ;
+edge [fontname="Microsoft YaHei"] ;
+0 [label="n_eid <= 1005797.0\nentropy = 1.0\nsamples = 700\nvalue = [355, 345]\nclass = 0", fillcolor="#fefbf9"] ;
+1 [label="HbA1c <= 41.55\nentropy = 0.122\nsamples = 361\nvalue = [355, 6]\nclass = 0", fillcolor="#e5833c"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="bread <= 8.5\nentropy = 0.071\nsamples = 349\nvalue = [346, 3]\nclass = 0", fillcolor="#e5823b"] ;
+1 -> 2 ;
+3 [label="TC_medication <= 0.5\nentropy = 0.159\nsamples = 129\nvalue = [126, 3]\nclass = 0", fillcolor="#e6843e"] ;
+2 -> 3 ;
+4 [label="Glucose <= 6.575\nentropy = 0.073\nsamples = 114\nvalue = [113, 1]\nclass = 0", fillcolor="#e5823b"] ;
+3 -> 4 ;
+5 [label="entropy = 0.0\nsamples = 112\nvalue = [112, 0]\nclass = 0", fillcolor="#e58139"] ;
+4 -> 5 ;
+6 [label="entropy = 1.0\nsamples = 2\nvalue = [1, 1]\nclass = 0", fillcolor="#ffffff"] ;
+4 -> 6 ;
+7 [label="entropy = 0.567\nsamples = 15\nvalue = [13, 2]\nclass = 0", fillcolor="#e99457"] ;
+3 -> 7 ;
+8 [label="entropy = 0.0\nsamples = 220\nvalue = [220, 0]\nclass = 0", fillcolor="#e58139"] ;
+2 -> 8 ;
+9 [label="entropy = 0.811\nsamples = 12\nvalue = [9, 3]\nclass = 0", fillcolor="#eeab7b"] ;
+1 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 339\nvalue = [0, 339]\nclass = 1", fillcolor="#399de5"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
