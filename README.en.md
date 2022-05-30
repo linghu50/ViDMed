@@ -1,36 +1,28 @@
 # ViDMed
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+**This is all the source code and data set for ViDMed project**
 
 #### Software Architecture
-Software architecture description
+
+- Front-end: vue
+- Back-end: springboot, datacube, ML
+- Test data sets: data
+
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  IDEA for "springboot" and "datacube"
+2.  Webstorm for "vue"
+3.  Pycharm for "ML"
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+1.  Open the "springboot" project in Maven mode and import "datacube" as an external link library (Eclipse) or moudle (IDEA)
+2.  Run "TpaApplication" for "springboot"
+3.  Run "controller" for "ML"
+4.  Run serve for "vue"
 
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### Online Website
+ http://175.178.252.226:8080 
